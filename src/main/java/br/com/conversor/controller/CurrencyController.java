@@ -18,7 +18,6 @@ import io.swagger.v3.oas.annotations.responses.ApiResponse;
 
 @RestController
 @RequestMapping("/api/v1/currency")
-
 public class CurrencyController {
 	
 	@Autowired
