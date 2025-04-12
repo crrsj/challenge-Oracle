@@ -6,7 +6,7 @@ Projeto desenvolvido como parte do programa **Oracle Next Education**, com o obj
 
 ## 📌 Descrição
 
-Esta é uma **API RESTful** para **conversão de moedas** utilizando a [ExchangeRate-API](https://www.exchangerate-api.com/).
+Esta é uma **API REST** para **conversão de moedas** utilizando a [ExchangeRate-API](https://www.exchangerate-api.com/).
 A aplicação recebe como parâmetros a moeda de origem, moeda de destino e o valor a ser convertido, retornando o valor 
 convertido com base na taxa de câmbio mais recente.
 
@@ -21,9 +21,10 @@ convertido com base na taxa de câmbio mais recente.
 - RestTemplate (para consumo de API externa)
 - ExchangeRate-API
 - Maven
-- Postman (para testes)
+- Postman (para testes) 
 
----
+
+![cm3](https://github.com/user-attachments/assets/22db6544-043c-4165-96de-65a7dac9401e)
 
 ## 🧠 Conceitos Aplicados
 
@@ -34,8 +35,9 @@ convertido com base na taxa de câmbio mais recente.
 - Manipulação de JSON com Java
 - Tratamento de exceções e validações
 - Uso da anotação `@ResponseStatus` para controle do status HTTP
+  
 
----
+![CM1](https://github.com/user-attachments/assets/476fbc87-7a87-4506-a9ad-e06ee526ba2d)
 
 ## 📂 Estrutura do Projeto
 
@@ -52,5 +54,9 @@ GET /api/v1/currency/convert?from=USD&to=BRL&amount=100
 ```json
 521.43
 
-![CM1](https://github.com/user-attachments/assets/1fd3fafb-83b9-41bd-a2db-01a6bc6e3f03)
-![cm3](https://github.com/user-attachments/assets/2f780e4d-de21-4b84-95b6-1fc49b80a32f)
+
+
+
+
+
+
